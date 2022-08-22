@@ -20,7 +20,7 @@ This project is a landing page of a company named codext, a SAAS service platfor
 - Personal Learnings in this project 
     - HTML
     - CSS 
-- Deployed on *Vercel*  **[ClickMe]()** 
+- Deployed on *Vercel*  **[ClickMe](https://codext-saas-platform.vercel.app/)** 
 *** 
 #### About Author
 ![AuthorImage](./circle-profile-pic.png)
