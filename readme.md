@@ -6,12 +6,16 @@
 ![ImageThumbnail](./thumnail.png)
 ***
 ### Project details
-This project is a landing page of a company named codext, a SAAS service platform. It is a purely responsive design , created for Desktop , mobile , and tablet usage. Only UI is developed for this project for this project, functionality is not .
+This project is a landing page of a company named codext, a SAAS service platform. It is a purely responsive design , created for Desktop ,mobile  and tablet usage. Only UI is developed for this project for this project, functionality is not .  
+Screen sizes
+- Mobile(424px)
+- Tablet(768px)
+- Laptop(Full width)
 
 
 ***
 ### Other Important Details
-- >Time taken for completion : 8 hours
+- >Time taken for completion : 10 hours
 - Technologies Used
   - HTML
   - CSS

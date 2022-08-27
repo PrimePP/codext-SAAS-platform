@@ -295,4 +295,220 @@ body{
 .right-part{
     margin-right: 600px;
 }
+.ham-menu{
+    display: none;
+}
 
+/* ********************************
+********************************
+**** Mobile & Tablet Responsive *****
+********************************
+******************************** */
+
+
+
+@media screen and (max-width:425px){
+
+    /* navbar */
+    .nav-bar{
+        width: 100vw;
+        margin:auto;
+    }
+    .top-logo{
+        width: 80px;
+        margin-left: -180px;
+    }
+    .menu-items{
+        display: none;
+    }
+    .ham-menu{
+        display: inline-block;
+        position: absolute;
+        left: 380px;
+    }
+    .ham-line{
+        width: 28px;
+        
+    }
+    .f-hero{
+        width: 100vw;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .hero-one-img{
+        width: 400px;
+    }
+    .left-sect{
+        padding: 0 20px;
+    }
+    .heading-one{
+        font-size: 30px;
+        position: relative;
+        top: -10px;
+    }
+    .para-one{
+        font-size: 15px;
+        white-space: pre-line;
+        position: relative;
+        top: -40px;
+    }
+    .try-demo{
+        font-size: 12px;
+        position: relative;
+        top: -40px;
+    }
+
+    .s-hero{
+        width: 100vw;
+        margin: auto;
+        display: grid;
+        grid-template-rows:1fr 1fr ;
+    }
+    .section-two-img{
+        width: 300px;
+    }
+    .sec-left-part{
+        height: 300px;
+       position: relative;
+       left: -100px;
+    }
+    .sec-right-part{
+        position: relative;
+        top: -240px;
+        left: 60px;
+    }
+    .heading-two{
+        font-size: 30px;
+        margin-bottom: 40px;
+        white-space: nowrap;;
+    }
+   .title-fourth{
+    font-size: 30px;
+    margin-bottom: 40px;
+   }
+   .t-second-part{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+   }
+   .card-items{
+    margin-bottom: 40px;
+   }
+   .t-hero{
+    margin-bottom: 40px;
+   }
+   .f-footer{
+    width: 100vw;
+    margin-top: 1400px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+   }
+   .footer-text{
+    white-space: nowrap;
+   
+    
+   }
+   .left-part{
+    padding-left: 40px;
+    width: 300px;
+   }
+   .right-part{
+    padding-left: 100px;
+   }
+
+}
+
+@media screen and (max-width:768px) and (min-width:600px){
+
+    .nav-bar{
+
+    }
+    .nav-logo{
+        margin-top: 10px;
+    }
+    .top-logo{
+        width: 90px;
+    }
+    .menu-items{
+        margin-left: 180px;
+    }
+    .nav-list-items{
+        font-size: 12px;
+    }
+    .nav-btn{
+        font-size: 12px;
+        padding: 5px 15px;
+        position: relative;
+        left: 20px;
+        top: 1px;
+    }
+    
+    .left-sect{
+        position: relative;
+        top: -60px;
+    }
+    .heading-one{
+        font-size: 25px;
+    }
+    .para-one{
+        font-size: 12px;
+    }
+    .try-demo{
+        font-size: 10px;
+        position: relative;
+        top: 60px;
+    }
+    .hero-one-img{
+        width: 350px;
+    }
+    
+    .sec-left-part{
+        height: 300px;
+        position: relative;
+        top: 120px;
+        left: -80px;
+    }
+    .section-two-img{
+        width: 350px;
+    }
+    .heading-two{
+        font-size: 25px;
+        white-space: nowrap;
+    }
+    .heading-descp{
+        font-size: 18px;
+    }
+    .para-exp-two{
+        font-size: 12px;
+    }
+    .s-descp{
+        margin-top: 40px;
+    }
+    .title-fourth{
+        font-size: 30px;
+    }
+    .t-second-part{
+        display: grid;
+        grid-template-rows: repeat(4,1fr) ;
+    }
+    .card-items{
+        margin-bottom: 40px;
+    }
+    .t-hero{
+        margin-bottom: 40px;
+    }
+    .f-footer{
+        margin-top: 1440px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        white-space: nowrap;
+        justify-content: space-between;
+    }
+    .left-part{
+       
+        position: relative;
+        left: -40px;
+    }
+    .right-part{
+        margin-left: 280px;
+    }
+}
